@@ -1,9 +1,11 @@
+// https://leetcode.com/problems/find-peak-element/
+// Binary Search
+// Array
+
 #include <iostream>
 #include <vector>
 
 using namespace std;
-
-// 162 leetcode
 
 // A peak element is an element that is strictly greater than its neighbors.
 
