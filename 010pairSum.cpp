@@ -20,21 +20,21 @@ using namespace std;
 
 int pairSum(vector<int> arr, int n, int k){
     sort(arr.begin(), arr.end());
-    int s = 0, e = 0;
-    while(s<=e){
-        if(arr[s]+arr[e]<k){
-            e++;
-        }
-        else if(arr[s]+arr[e]==k){
-            cout<<"("<<arr[s]<<", "<<arr[e]<<"), ";
+    int s = 0, e = 1;
+    while(s<e){
+        if(arr[s]+arr[e]==k){
+            cout<<"("<<arr[s]<<", "<<arr[e]<<")"<<endl;
             s++;
             e++;
         }
         else if(arr[s]+arr[e]>k){
             s++;
         }
+        else{
+            e++;
+        }
         if(e==n){
-            break;
+            return 0;
         }
     }
     return 0;
