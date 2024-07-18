@@ -1,4 +1,5 @@
 // https://www.spoj.com/problems/SUBSUMS/
+// Bit Manipulation
 
 #include<bits/stdc++.h>
 using namespace std;
