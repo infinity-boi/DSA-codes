@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/single-number-ii/
 
+// Bit Manipulations
 #include <bits/stdc++.h>
 using namespace std;
 
