@@ -3,6 +3,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Bit Manipulation
+
 int getBit(int a, int k){
     return (a>> k) & 1;
 }
