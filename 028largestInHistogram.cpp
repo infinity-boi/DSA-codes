@@ -1,5 +1,9 @@
+// https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+
 #include <bits/stdc++.h>
 using namespace std;
+// monotonic stack
+
 
 int largestRectangleArea(vector<int>& heights) {
         int n =heights.size();
