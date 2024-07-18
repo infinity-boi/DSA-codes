@@ -1,5 +1,9 @@
+// https://leetcode.com/problems/online-stock-span/
+
 #include <bits/stdc++.h>
 using namespace std;
+
+// monotonic stack
 
 class StockSpanner {
 public:
