@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/maximal-rectangle/
-
+// stack, dp
 
 #include <bits/stdc++.h>
 using namespace std;
