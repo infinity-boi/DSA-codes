@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// binary search
+
 bool isPossible(vector<int> nums, int target, int k, int n){
     int port = 0;
     int csum = 0;
