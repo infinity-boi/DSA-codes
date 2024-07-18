@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/sliding-window-maximum/
-
+// queue, sliding window, heap
 #include <bits/stdc++.h>
 using namespace std;
 
