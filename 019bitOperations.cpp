@@ -1,5 +1,7 @@
 #include <iostream>
 
+// bit operations
+
 using namespace std;
 
 int getbit(int n, int i){
