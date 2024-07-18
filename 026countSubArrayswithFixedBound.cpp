@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// slidin window, precomputation
 
 long long countSubarrays(vector<int>& nums, int minK, int maxK) {
     int n = nums.size();
