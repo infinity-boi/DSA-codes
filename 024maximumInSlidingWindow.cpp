@@ -2,7 +2,6 @@
 // Deque
 // Heap 
 // Monotonic Queue
-// already done
 // https://leetcode.com/problems/sliding-window-maximum/
 
 #include <bits/stdc++.h>
