@@ -56,3 +56,50 @@ int main() {
     }
     return 0;
 }
+
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// class Student{
+//     public :
+//         int marks;
+//         string name;
+//         int roll;
+// };
+
+// void bucketSort(vector<Student> nums, int n){
+//     vector<vector<Student>> bucket(361);
+//     int ind;
+//     for(int i=0; i<n; i++){
+//         ind = nums[i].marks;
+//         bucket[ind].push_back(nums[i]);
+//     }
+//     ind = 0;
+//     for (int i = 360; i>=0; i++){
+//         for (int j = 0; j < bucket[i].size(); j++)
+//             nums[ind++] = bucket[i][j];
+//     }
+    
+// }
+
+
+// int main(){
+//     int n;
+//     cin>> n;
+//     vector<Student> stud;
+//     for(int i=0; i<n; i++){
+//         string name;
+//         cin>> name;
+//         int x;
+//         cin>>x;
+//         int roll;
+//         cin>> roll;
+//         Student S;
+//         S.marks = x;
+//         S.name = name;
+//         S.roll = roll;
+//         stud.push_back(S);
+//     }
+//     bucketSort(stud, n);
+// }
