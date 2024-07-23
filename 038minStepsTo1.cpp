@@ -1,6 +1,6 @@
 // https://www.geeksforgeeks.org/minimum-step-reach-one/
 
-// 
+// BFS
 
 #include <bits/stdc++.h>
 using namespace std;
